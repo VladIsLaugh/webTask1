@@ -1,0 +1,13 @@
+
+
+  @media screen and (max-width: 700px) {
+    .text-block{
+      font-size: 12px;
+      float: none;
+  }
+  .img-block{
+      margin: 0;
+  }
+
+
+}

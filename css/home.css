@@ -1,0 +1,37 @@
+
+/*Header block*/
+
+header img{
+    width: 100%;
+    padding-top: 30px;
+
+}
+
+/*Section block*/
+
+section h2{
+    text-align: center;
+    color: var(--fire);
+}
+
+/*History block*/
+.history{
+    margin-bottom: 80px;
+}
+.history-block img{
+    max-width: 340px;
+    float: left;
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+
+/*last-winning block*/
+.last-winning{
+    margin-bottom: 10px;
+}
+.last-winning-block img{
+    max-width: 340px;
+    float: right;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}

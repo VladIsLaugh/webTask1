@@ -1,0 +1,20 @@
+
+@media screen and (max-width: 750px) {
+    .figure-item{
+        border: none;
+        border-bottom: 5px solid var(--fire);
+        width: 400px;
+        font-size: 14px;
+        }
+        .news-title {
+            padding-top: 0px;
+        }
+}
+
+@media screen and (max-width: 500px) {
+    .figure-item{
+        width: 250px;
+        font-size: 12px;
+        }
+}
+

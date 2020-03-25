@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arsenal</title>
+
+    <link rel="stylesheet" href="./../css/global.css">
+    <link rel="stylesheet" href="./../css/admin.css">
+    <link rel="stylesheet" href="../css/media/media-global.css">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./../img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="modal-container">
+        <div class="burger">
+            <a href="#" class="menu-btn">
+                <span></span>
+            </a>
+        </div>
+        <div class="modal">
+            <ul>
+                <li class="li-modal"><a href="./../index.html">Main</a></li>
+                <li class="nav-mathes-modal li-modal">
+                    <a href="#">Matches </a>
+                    <ul class="sub-menu-modal">
+                        <li class="li-modal">winning maches</liclass="li-modal">
+                        <li class="li-modal">best maches</li>
+                        <li class="li-modal">last maches</li>
+                    </ul>
+
+                </li>
+                <li class="li-modal"><a href="./news.html">News</a></li>
+                <li class="li-modal"><a href="./fans.html">Fans</a></li>
+                <li class="li-modal"><a href="#">Contacts</a></li>
+                <li class="li-modal"><a href="./admin.html">Admin</a></li>
+            </ul>
+        </div>
+    </div>
+    <nav> 
+        <div class="nav-links">
+            <ul>
+                <li><a href="./../index.html">Main</a></li>
+                <li class="nav-mathes">
+                    <a href="#">Matches </a>
+                    <ul class="sub-menu">
+                        <li>winning maches</li>
+                        <li>best maches</li>
+                        <li>last maches</li>
+                    </ul>
+                </li>
+                <li><a href="./news.html">News</a></li>
+                <li><a href="./fans.html">Fans</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="./admin.html">Admin</a></li>
+            </ul>
+        </div>
+        <div class="logo">
+            <a href="https://www.arsenal.com/"><img src="./../img/arsenal-logo-32048.png" alt="logo"></a>
+        </div>
+
+    </nav>
+    <section>
+       <div class="container">
+        <img class="new-img" src="./../img/admin.png" alt="foto">  
+        <input type="file" name="file" id="file" class="inputfile" />
+        <label for="file">Choose file</label>
+       </div>
+       <br>
+       <div class="container">
+           <div>
+               <p class="warning"></p>
+               <input class="input-title" type="text"  placeholder="title"> 
+                <textarea class="input-body" placeholder="You can text here..."></textarea></div>
+
+            <button class="submit">Add News</button>
+       </div>
+    </section>
+
+    <div class="alert">
+        <p class="alert__title"></p>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./../js/script.js"></script>
+    <script src="./../js/alert.js"></script>
+    <script src="./../js/admin.js"></script>
+</body>
+
+</html>

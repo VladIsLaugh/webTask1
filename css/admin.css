@@ -1,0 +1,127 @@
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 20px 0px;
+}
+button{
+    outline:none;
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: var(--dark);
+    color: var(--light);
+    border: 3px solid var(--fire);
+    font-weight: 700;
+    font-size: 1em;
+    margin-top: 35%;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+    width: 150px;
+    height: 45px;
+    border: 3px solid var(--fire);
+    padding: 8px 30px;
+    line-height: 1.5;
+    border-radius: 5px;
+    outline:none;
+    color: var(--light);
+    font-weight: 700;
+    font-size: 1em;
+    margin-bottom: 10px;
+    background-color: #000;
+    border-radius: 20px;
+}
+.inputfile + label:hover {
+    background-color: var(--light);
+    color: var(--fire);
+}
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+button:hover{
+    color: var(--fire);
+    background-color: var(--light);
+    cursor: pointer;
+}
+.input-title{
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #999;
+    outline:none;
+    width: 50%;
+    color: var(--fire);
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+textarea {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #999;
+    outline:none;
+    width: 90%;
+    height: 120px;
+    color: var(--fire);
+    font-size: 1.2em;
+    resize: none;
+}
+
+.input-title:focus, textarea:focus {
+    border: 5px solid var(--fire);
+}
+.input-title::placeholder, textarea::placeholder {
+    color: var(--dark);
+    opacity: .3;
+ }
+
+ @media screen and (max-width: 700px) {
+
+.container{
+    grid-template-columns: 1fr;
+    margin: 0px 0px;
+}
+button{
+    margin-top: 20px;
+}
+}
+.warning{
+    color: red;
+}
+
+.warning-field{
+    border: 3px solid red;
+}
+
+.alert {
+    color: #000;
+    font-weight: 400;
+   transform: translateY(900px);
+   width: 100%;
+   max-width: 460px;
+   position: fixed;
+   top: 80%;
+   left: calc(50% - 230px);
+   z-index: 30; 
+   box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2); 
+   text-align: center;
+   padding: 10px 15px;
+   border-radius: 5px;
+   background-color: #5cb85c;
+   transition: 0.3s all;
+}
+
+
+.alert.active{
+   transform: translateY(0px);
+}
+

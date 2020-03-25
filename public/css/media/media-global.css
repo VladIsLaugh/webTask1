@@ -1,0 +1,41 @@
+/*bid*/
+@media screen and (max-width: 1000px) {
+    li{
+        font-size: 12px;
+    }
+    .nav-links ul li a{   
+        border: 3px var(--fire) solid;
+        padding: 8px 30px;
+        transition: 0.3s;
+    }
+}
+
+/*medium*/
+@media screen and (max-width: 850px) {
+    nav{
+        padding: 5px 10px;
+    }
+    li{
+        font-size: 10px;
+    }
+    .logo{
+        display: none;
+    }
+
+
+}
+
+/*small*/
+@media screen and (max-width: 700px) {
+nav{
+    display: none;
+}
+.burger{
+    display: inline-block;
+}
+section{
+    padding: 0px 10%; 
+    margin: 0;
+}
+}
+/*extra small*/

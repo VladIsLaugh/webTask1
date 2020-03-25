@@ -5,15 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Arsenal</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/media/media-global.css">
+    <link rel="stylesheet" href="./css/media/media-home.css">
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-
-
 </head>
 
 <body>
+    <div class="modal-container">
+        <div class="burger">
+            <a href="#" class="menu-btn">
+                <span></span>
+            </a>
+        </div>
+        <div class="modal">
+            <ul>
+                <li class="li-modal"><a href="./index.html">Main</a></li>
+                <li class="nav-mathes-modal li-modal">
+                    <a href="#">Matches </a>
+                    <ul class="sub-menu-modal">
+                        <li class="li-modal">winning maches</liclass="li-modal">
+                        <li class="li-modal">best maches</li>
+                        <li class="li-modal">last maches</li>
+                    </ul>
+
+                </li>
+                <li class="li-modal"><a href="./html/news.html">News</a></li>
+                <li class="li-modal"><a href="./html/fans.html">Fans</a></li>
+                <li class="li-modal"><a href="#">Contacts</a></li>
+                <li class="li-modal"><a href="./html/admin.html">Admin</a></li>
+            </ul>
+        </div>
+    </div>
+
     <nav>
         <div class="nav-links">
             <ul>
@@ -25,17 +53,19 @@
                         <li>best maches</li>
                         <li>last maches</li>
                     </ul>
-
                 </li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Fans</a></li>
+                <li><a href="./html/news.html">News</a></li>
+                <li><a href="./html/fans.html">Fans</a></li>
                 <li><a href="#">Contacts</a></li>
-                <li><a href="#">Admin</a></li>
+                <li><a href="./html/admin.html">Admin</a></li>
             </ul>
         </div>
         <div class="logo">
             <a href="https://www.arsenal.com/"><img src="./img/arsenal-logo-32048.png" alt="logo"></a>
         </div>
+
+
+
     </nav>
     <header>
         <img src="./img/wallpaper.jpg" alt="">
@@ -44,8 +74,9 @@
         <div class="history">
             <h2>History of the team</h2>
             <div class="history-block">
-                <img src="./img/history-img.jpg" alt="">
-                <p>Футбольний Клуб «Арсенал» (англ. Arsenal Football Club), або просто Арсенал (англ. Arsenal) —
+                <img class="img-block" src="./img/history-img.jpg" alt="">
+                <p class="text-block">Футбольний Клуб «Арсенал» (англ. Arsenal Football Club), або просто Арсенал (англ.
+                    Arsenal) —
                     англійський футбольний клуб з північного Лондона, є одним з найуспішніших клубів в англійському
                     футболі. 13 разів ставав чемпіоном Англії, поступаючись за цим показником лише «Ліверпулю» і
                     «Манчестер Юнайтед».
@@ -61,9 +92,10 @@
         <div class="last-winning">
             <h2>The last victory</h2>
             <div class="last-winning-block">
-                <img src="./img/last-winning.jpg" alt="">
+                <img class="img-block" src="./img/last-winning.jpg" alt="">
 
-                <p>Команди почали розкриватися аж в останній третині першого тайму. Після обміну моментами більш
+                <p class="text-block">Команди почали розкриватися аж в останній третині першого тайму. Після обміну
+                    моментами більш
                     активний Вест Хем заслужено вийшов уперед, коли Форналс навісив з правого краю штрафного на Огбонну,
                     а той ударом з рикошетом від Мейтленд-Найлса вколотив м'яч у сітку.
 
@@ -77,9 +109,7 @@
                     Арсенал продовжили тиснути й забив ще двічі. Спочатку Озіл передачею у зону перед штрафним знайшов
                     Обамеянга, той віддав пас на правий край, а Пепе, хитнувши захисника, пробив у дальню дев'ятку. А ще
                     через три хвилини сам П'єр-Емерік уникнув офсайду й ефектно замкнув закидання від Ніколя.
-
-
-                </p>
+                </p class="text-block">
             </div>
 
         </div>
@@ -89,6 +119,8 @@
         <p class="footer-dark">SoftServe inc</p>
     </footer>
 
+
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
